@@ -1,5 +1,5 @@
 # Script Repository
-Welcome to the script repository! This repository contains a collection of various script files to help improve and automate various tasks on a system or project. It also includes commands and instructions for various setups such as pipelines and server functions. 
+Welcome to the script repository! This repository contains a collection of miscellaneous script files to help improve and automate various tasks on a system or project. It also includes commands and instructions for various setups such as pipelines and server functions. 
 
 ## Purpose
 The intention of this repository to be used as a reference guide for a variety of tasks. These tasks can range from automation to system optimization or even setting up configurations within a server. I put this repository together so that I could have a single centralized place to reference my scripts for future use. 
