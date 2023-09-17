@@ -2,6 +2,10 @@ version: '3'
 services:
   
   #PHP Service
+
+  #- Copy the Dockerfile from /dockerfiles/default to use an ordinary php image
+  #- You can also use the alpine version from /dockerfiles/php_alpine to try a lighter image
+
   app:
     build:
       args:
