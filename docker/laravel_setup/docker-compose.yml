@@ -44,6 +44,11 @@ services:
       - app-network
 
   #MySQL Service
+
+  #- You can substitude this version of mysql with something like mariadb:10.9.8 if you prefer to use mariadb instead
+  #- If using mariadb make sure when running cli in the container to login with mariadb -u ... instead of mysql -u ...
+  #- Since mariadb is a replacement for mysql, no additional configuration for driver variables are needed (i.e. MYSQL_DATABASE)
+
   db:
     image: mysql:5.7.22
     container_name: db
