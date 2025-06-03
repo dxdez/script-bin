@@ -13,8 +13,8 @@ remove_ansi_codes() {
 for file in source/*; do
     text_content=$(<"$file")
     filename=$(basename "$file")
-
-    commandbase="docker exec -it ollamagpu ollama run gemma3:4b \"$main_prompt $text_content\" > output/main/$filename"
+    # model name and parameters can be inserted here, i.e. gemma3:4b
+    commandbase="docker exec -it ollamagpu ollama run <model_name:Nb> \"$main_prompt $text_content\" > output/main/$filename"
 
     echo "Executing docker command for main output on: $file"
     eval "$commandbase"
