@@ -2,7 +2,7 @@
 This repository contains a collection of miscellaneous script files to help improve and automate various tasks or to experiment. It also includes commands and instructions for various setups such as pipelines and server functions. 
 
 ## Purpose
-The intention of this repository to be used as a reference guide for a variety of tasks. These tasks can range from automation to system optimization or even setting up configurations within a server. I put this repository together so that I could have a single centralized place to reference my scripts for future use. Some but not all are also copied over to Gists. 
+The intention of this repository to be used as a reference guide for a variety of tasks. These tasks can range from automation to system optimization or even setting up configurations within a server. I put this repository together so that I could have a single centralized place to reference my scripts for future use. Some scripts were used for niche purposes on various projects and others but *not all* are also copied over to Gists. 
 
 
 ## Disclaimer
